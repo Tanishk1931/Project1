@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Backend with Frontend project(Mini Project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanishk1931/Project1.git"
+  },
+  "author": "Tansihk Kushwah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanishk1931/Project1/issues"
+  },
+  "homepage": "https://github.com/Tanishk1931/Project1#readme"
+}
