@@ -4,7 +4,7 @@
   "description": "Backend with Frontend project(Mini Project)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Tanishk1931/Project1/issues"
   },
-  "homepage": "https://github.com/Tanishk1931/Project1#readme"
+  "homepage": "https://github.com/Tanishk1931/Project1#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
