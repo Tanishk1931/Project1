@@ -1,8 +1,12 @@
+import app from "./App.js";
+
+// const PORT = 4000;
+// app.listen(PORT, () => {
+//     console.log(`Server running on http://localhost:${PORT}`);
+// });
 
 
-import express from "express";
-const app = express();
-import mongoose from "mongoose";
+
 import connectDatabase from "./db/index.js";
 
 

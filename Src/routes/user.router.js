@@ -1,16 +1,10 @@
 import { Router } from "express";
-import { registerUser } from "../controllers/user.controller";
+import { registerUser } from "../controllers/user.controller.js";
+import {upload} from "../middlewares/multer.middleware.js";
 
 const router = Router();
+router.post("/register", upload.fields([{ name: "avatar", maxCount: 1 }, { name: "coverImage", maxCount: 1 }]), 
+registerUser);
 
-// Define user-related routes here
-router.route('/register')
-    .post(userController.registerUser);
-router.route('/login')
-    .post(userController.loginUser);
-router.route('/profile')
-    .get(userController.getUserProfile);
-
-
-export { registerUser };
 export default router;
+
